@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   ;
+}
+body {
+    background-color: whitesmoke
+}
+
+li, a, button {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 7.5px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+   
+    
+}
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 10px 10%;
+    margin: 3px;
+}
+.Nav_link {
+list-style: none;
+
+}
+
+.Nav_link li {
+display: inline;
+padding: 10px 20px;
+background-color: #7ED5EA
+
+}
+
+.Nav_link li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.Nav_link li a:hover {
+    color: black;
+}
+
+.Maincard  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 30px;
+    box-shadow: 0 4px 8px 0
+    rgba(0, 0,0, 0.2);
+    transition: 0.3s;
+    margin: 20px;
+    border-radius: 6.5px;
+    background-color: #7ED5EA;
+    color: whitesmoke;
+    height: 2
+    00px;
+    width: 300px;
+    transition: all 0.3s ease 0.4s;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+#info {
+    text-decoration: none;
+    color: transparent;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#info:hover  {
+    color: whitesmoke;
+    
+}
+
+.card:hover{
+    height: 500px;
+    
+}
