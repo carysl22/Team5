@@ -87,8 +87,7 @@ background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    float:inline-end
-  }
+      }
   
   /* Create four equal columns that sits next to each other */
   .column {
