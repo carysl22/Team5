@@ -1,3 +1,31 @@
+
+//event listener for a mouse enter and mouse leave that changes the colour of the nav button background
+const nav_li = document.querySelectorAll(".Nav_link li") 
+for (let i = 0; i < nav_li.length; i++) {
+
+  let current_li = nav_li[i];
+  original_color = current_li.style.backgroundColor
+  current_li.addEventListener('mouseenter', function(event){
+    event.target.style.backgroundColor = '#F4ABAA'
+  })
+  current_li.addEventListener('mouseleave', function(event) {
+    event.target.style.backgroundColor = original_color;
+  
+  })
+}
+
+//change background colour to magenta when hover over Created by Team 5
+let p2 = document.getElementById("p2");
+  original_color = p2.style.backgroundColor
+p2.addEventListener('mouseenter', function(event){
+  event.target.style.backgroundColor = '#F4ABAA'
+})
+p2.addEventListener('mouseleave', function(event){
+  event.target.style.backgroundColor = original_color;
+
+})
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -28,3 +56,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+

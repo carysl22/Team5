@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +10,9 @@
   <link rel="stylesheet" href="./Slideshow-gallery.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+</style>
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./style-destinations.css">
@@ -26,53 +27,55 @@
       <img class="logo" src="./Img/vacations.png" alt="Arkinasi">
       <nav>
         <Ul class="Nav_link">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Destinations</a></li>
-            <li><a href="#">Recipes</a></li>
+            <li><a href="ProjectHome.html">Home</a></li>
+            <li>Destinations</li>
+            <li><a href="Food.html">World Foods</a></li>
             <li><a href="AboutUs.html">About Us</a></li>
         </Ul>
       </nav>
       
     </div>
-
   </header>
+  
   <div class = "intro">
-    <p>Get inspired for your next Travel Destination </p>
-
+    <h1>Get inspired for your next Travel Destination </h1>
   </div>
 
 <!-- Container for the image gallery -->
 <div class="container">
 
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-      <img src="./Img/img_woods_wide.jpg" style="width:100%">
-  </div>
+    <!-- Full-width images with number text -->
+  <div class =images_border>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="./Img/img_5terre_wide.jpg" style="width:100%">
-  </div>
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="./Img/img_woods_wide.jpg" style="width:100%">
+      </div>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="./Img/img_mountains_wide.jpg" style="width:100%">
-  </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="./Img/img_5terre_wide.jpg" style="width:100%">
+      </div>
 
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="./Img/img_lights_wide.jpg" style="width:100%">
-  </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="./Img/img_mountains_wide.jpg" style="width:100%">
+      </div>
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="./Img/img_nature_wide.jpg" style="width:100%">
-  </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="./Img/img_lights_wide.jpg" style="width:100%">
+      </div>
 
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="./Img/img_snow_wide.jpg" style="width:100%">
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="./Img/img_nature_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="./Img/img_snow_wide.jpg" style="width:100%">
+      </div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -113,9 +116,12 @@
   <a href="#" class="fa fa-github"></a>
   <a href="#" class="fa fa-linkedin"></a>
 </div>
-<script src="javascript.js"></script>
-  </body>
-  </html> 
+
+<p id="p2">Created by Team 5 CFG</p>
+
+<script src="javascript.js">
+</script>
+
 </body>
 
 </html>
