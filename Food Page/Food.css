@@ -36,9 +36,25 @@ header {
   justify-content: center;
   font-weight: bold;
   padding: 60px;
+  padding-bottom: 0px;
   margin-top: 10px;
 
 }
+
+.description {
+  text-align: center;
+  width: 90%;
+  font-family: "Monserrat", sans-serif;
+  font-size: large;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-weight: normal;
+  font-style: italic;
+  padding: 40px;
+  margin-top: 5px;
+
+  }
 
 li, a, button {
   font-family: "Monserrat", sans-serif;
@@ -77,8 +93,6 @@ background-color: whitesmoke;
 .container{
     height: 100vh;
     display: flexbox;
- 
-   /* Change  values   👇 to experiment*/
     justify-content: flex;
     margin: auto
  }
@@ -89,8 +103,7 @@ background-color: whitesmoke;
     padding: 0 4px;
       }
   
-  /* Create four equal columns that sits next to each other */
-  .column {
+    .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -117,3 +130,4 @@ background-color: whitesmoke;
       max-width: 100%;
     }
   }
+
